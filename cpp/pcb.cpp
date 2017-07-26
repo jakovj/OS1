@@ -46,8 +46,8 @@ PCB::PCB(Thread * thread, StackSize stackSize, Time timeSlice) : stack(0), myThr
 	parent = PCB::running;
 	receivedSignals = new SigList();
 	for (int i = 0; i < SIGNALNUM; i++) {			//*******************************
-		masked[i] = parent->masked[i];				//*******************************
-		blocked[i] = parent->blocked[i];			// Signal preferences inheritance
+		masked[i] = parent->masked[i];			//*******************************
+		blocked[i] = parent->blocked[i];		// Signal preferences inheritance
 		myHandlers[i] = parent->myHandlers[i];		//*******************************
 	}
 }
