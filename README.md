@@ -1,7 +1,5 @@
 # Operating Systems 1 Project
 
-Basic Digital Electronics Course Project
-
 ## Getting Started
 
 Implementation of a kernel which support multithreading and timw sharing. Also, concepts like semaphores, events, 
