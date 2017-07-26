@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Implementation of a kernel which support multithreading and timw sharing. Also, concepts like semaphores, events, 
+Implementation of a kernel which supports multithreading and time sharing. Also, concepts like semaphores, events, 
 signals (thread-thread communication) are covered.
 
 ## Prerequisites
